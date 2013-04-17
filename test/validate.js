@@ -84,7 +84,10 @@ describe('Schema Validation', function() {
         "cmplx1": {
           "req1": "bla",
           "opt1": "bla2",
-          "opt2": false
+          "opt2": false,
+          "optcmplx": [
+            {"s": true}
+          ]
         },
         "field_not_present": "foo"
       };

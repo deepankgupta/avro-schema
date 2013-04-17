@@ -9,7 +9,7 @@
     "doc" : "Required field 1"
   }, {
     "name" : "optcmplx",
-    "type" : [ "com.namespace.Simple2", "null" ],
+    "type" : "com.namespace.Simple2",
     "doc" : "Optional Field 1"
   }, {
     "name" : "opt2",
